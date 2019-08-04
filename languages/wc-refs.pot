@@ -1,0 +1,32 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Referral Links\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-03 14:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: WCRefCreator.php:49
+msgid "Copied to clipboard"
+msgstr ""
+
+#: WCRefCreator.php:127 WCRefCreator.php:130
+msgid "Get reference link"
+msgstr ""
+
+#: WCRefCreator.php:98
+msgid "Source:"
+msgstr ""
+
+#: WCRefCreator.php:159 WCRefCreator.php:162
+msgid "User link"
+msgstr ""
