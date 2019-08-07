@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WC Referral Links\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-03 14:59+0000\n"
-"PO-Revision-Date: 2019-08-03 15:04+0000\n"
-"Last-Translator: Павел Брыков <palpalychbrykov@yandex.ru>\n"
-"Language-Team: Українська\n"
+"POT-Creation-Date: 2019-08-07 11:00+0000\n"
+"PO-Revision-Date: 2019-08-07 11:01+0000\n"
+"Last-Translator: admin <admin@example.com>\n"
+"Language-Team: Ukrainian\n"
 "Language: uk\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
 "n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
@@ -13,20 +13,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.3.0; wp-5.2.2"
+"X-Loco-Version: 2.3.0; wp-5.1.1"
 
-#: WCRefCreator.php:49
+#: WCRefCreator.php:53
 msgid "Copied to clipboard"
 msgstr "Скопійовано в буфер обміну"
 
-#: WCRefCreator.php:127 WCRefCreator.php:130
-msgid "Get reference link"
-msgstr "Реферальне посилання"
+#: WCRefCreator.php:72
+msgid "Source"
+msgstr "Джерело"
 
-#: WCRefCreator.php:98
+#: WCRefCreator.php:140
 msgid "Source:"
 msgstr "Джерело:"
 
-#: WCRefCreator.php:159 WCRefCreator.php:162
+#: WCRefCreator.php:170 WCRefCreator.php:173
+msgid "Get reference link"
+msgstr "Реферальне посилання"
+
+#: WCRefCreator.php:202 WCRefCreator.php:205
 msgid "User link"
 msgstr "Користувацьке"

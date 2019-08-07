@@ -3,7 +3,7 @@
 Plugin Name: WC Referral Links
 Author: Brykov Pavel
 Author URI: http://webpalych.pp.ua
-Version: 0.1
+Version: 0.2
 Text Domain: wc-refs
 Domain Path: /languages
 */

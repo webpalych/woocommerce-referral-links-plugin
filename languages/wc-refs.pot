@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WC Referral Links\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-03 14:59+0000\n"
+"POT-Creation-Date: 2019-08-07 11:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,18 +15,22 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.3.0; wp-5.2.2"
 
-#: WCRefCreator.php:49
+#: WCRefCreator.php:53
 msgid "Copied to clipboard"
 msgstr ""
 
-#: WCRefCreator.php:127 WCRefCreator.php:130
-msgid "Get reference link"
+#: WCRefCreator.php:72
+msgid "Source"
 msgstr ""
 
-#: WCRefCreator.php:98
+#: WCRefCreator.php:140
 msgid "Source:"
 msgstr ""
 
-#: WCRefCreator.php:159 WCRefCreator.php:162
+#: WCRefCreator.php:170 WCRefCreator.php:173
+msgid "Get reference link"
+msgstr ""
+
+#: WCRefCreator.php:202 WCRefCreator.php:205
 msgid "User link"
 msgstr ""

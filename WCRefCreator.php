@@ -17,6 +17,8 @@ if (!class_exists('WCRefCreator')) :
         {
             add_action('wp_enqueue_scripts', [__CLASS__, 'registerScripts']);
             add_action('init', [__CLASS__, 'setRefCookie']);
+            add_filter('manage_edit-shop_order_columns', [__CLASS__, 'addOrdersSourceColumn']);
+            add_action('manage_shop_order_posts_custom_column', [__CLASS__, 'fillOrdersSourceColumn']);
             add_action('admin_bar_menu', [__CLASS__, 'addAdminBarDropdown'], 100);
             add_action('woocommerce_checkout_update_order_meta', [__CLASS__, 'addOrderReferrer'], 100, 1);
         }
@@ -50,6 +52,44 @@ if (!class_exists('WCRefCreator')) :
                 wp_localize_script( 'wc-ref-adminbar-script', 'wcRefLocalize', array(
                     'alertMessage' => __( 'Copied to clipboard', 'wc-refs' ),
                 ) );
+            }
+        }
+
+
+        /**
+         * Add referrer column to orders list
+         *
+         * @param array $columns
+         * @return array
+         */
+        public static function addOrdersSourceColumn($columns)
+        {
+            $new_columns = array();
+
+            foreach ( $columns as $column_name => $column_info ) {
+                $new_columns[ $column_name ] = $column_info;
+                if ( 'order_date' === $column_name ) {
+                    $new_columns['order_referrer'] = __('Source', 'wc-refs');
+                }
+            }
+
+            return $new_columns;
+        }
+
+        /**
+         * Fill referrer column in orders list
+         *
+         * @param string $column
+         */
+        public static function fillOrdersSourceColumn($column)
+        {
+            global $post;
+
+            if ('order_referrer' === $column) {
+
+                $referrer = get_post_meta($post->ID, 'referrer_source', true);
+
+                echo $referrer;
             }
         }
 
