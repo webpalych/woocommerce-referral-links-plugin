@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WC Referral Links\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-07 11:00+0000\n"
+"POT-Creation-Date: 2019-08-08 15:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -31,6 +31,10 @@ msgstr ""
 msgid "Get reference link"
 msgstr ""
 
-#: WCRefCreator.php:202 WCRefCreator.php:205
+#: WCRefCreator.php:201 WCRefCreator.php:204
 msgid "User link"
+msgstr ""
+
+#: templates/filter-dropdown.php:8
+msgid "All referrers"
 msgstr ""

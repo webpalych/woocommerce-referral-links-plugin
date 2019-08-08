@@ -149,9 +149,9 @@ if (!class_exists('WCRefCreator')) :
          */
         public static function addOrderMeta($order_id, $ref, $user_id = null)
         {
-            update_post_meta( $order_id, 'referrer_source', wp_slash($ref));
+            update_post_meta($order_id, WC_REF_SOURCE_META_FIELD, wp_slash($ref));
             if ($user_id) {
-                update_post_meta( $order_id, 'referrer_user', $user_id);
+                update_post_meta($order_id, WC_REF_USER_META_FIELD, $user_id);
             }
         }
 
@@ -195,7 +195,6 @@ if (!class_exists('WCRefCreator')) :
                         'class' => 'ref_link_admin'
                     ],
                 ]);
-
                 $admin_bar->add_menu([
                     'id' => 'ref-link-user',
                     'parent' => 'ref-link-root',
@@ -216,7 +215,7 @@ if (!class_exists('WCRefCreator')) :
          * @param $user_id
          * @return string|null
          */
-        public static function getUsernameById($user_id)
+        protected static function getUsernameById($user_id)
         {
             global $wpdb;
 

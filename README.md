@@ -4,6 +4,10 @@ Allows you to create referral links and save referral data to orders. Adds order
 
 ## Changelog
 
+### Ver 0.3
+
+ - Add filter to orders list
+
 ### Ver 0.2
 
  - Add referrer column to order list in dashboard

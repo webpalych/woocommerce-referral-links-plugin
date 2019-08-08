@@ -2,9 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WC Referral Links\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-07 11:00+0000\n"
-"PO-Revision-Date: 2019-08-07 11:00+0000\n"
-"Last-Translator: admin <admin@example.com>\n"
+"POT-Creation-Date: 2019-08-08 15:08+0000\n"
+"PO-Revision-Date: 2019-08-08 15:10+0000\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
@@ -31,6 +30,10 @@ msgstr "Источник:"
 msgid "Get reference link"
 msgstr "Реферальная ссылка"
 
-#: WCRefCreator.php:202 WCRefCreator.php:205
+#: WCRefCreator.php:201 WCRefCreator.php:204
 msgid "User link"
 msgstr "Пользовательская"
+
+#: templates/filter-dropdown.php:8
+msgid "All referrers"
+msgstr "Все источники"
